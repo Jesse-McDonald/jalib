@@ -18,4 +18,4 @@ Split_Queue\
 Not strictly the oposite of Merge_Queue but close\
 Intended for 1 thread to issue instructions to all threads (ie broadcast messages to clients)\
 The Queue is a MISD modle and expects all threads to read the same data independently.\
-Guarenteed to be safe for n concurrent dequeue threads (they all get the same sequence) at the same tame as 1 enqueue thread 
+Guarenteed to be safe for n concurrent dequeue threads (they all get the same sequence) at the same time as 1 enqueue thread 
