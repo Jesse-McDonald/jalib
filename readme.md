@@ -19,8 +19,7 @@ dequeue is o(1) usually, but can be o(N) if the queue is empty or close to empty
 Split_Queue
 Not strictly the oposite of Merge_Queue but close
 
-Intended for 1 thread to issue instructions to all threads (ie broadcast messages to clients)
-
+Intended for 1 thread to issue instructions to all threads (ie broadcast messages to clients)\
 The Queue is a MISD modle and expects all threads to read the same data independently.
 
 Guarenteed to be safe for n concurrent dequeue threads (they all get the same sequence) at the same tame as 1 enqueue thread 
